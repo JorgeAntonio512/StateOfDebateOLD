@@ -1,0 +1,43 @@
+<html>
+<body>
+
+
+
+<a href="upvote.php" onClick="alert('You have given this item a thumbs up! You can change your vote, or leave it how it is.')"; onMouseOver="return changImage()" onMouseOut= "return changImageBack()" ><img
+name="jsbutton2" src="Graphics/thumbs-up-unclicked.jpeg" width="75" height="75" border="0"
+alt="javascript button"></a>
+
+<script type="text/javascript">
+function changImage()
+{
+document.images["jsbutton2"].src= "Graphics/thumbs-up.jpeg";
+return true;
+}
+function changImageBack()
+{
+ document.images["jsbutton2"].src = "Graphics/thumbs-up-unclicked.jpeg";
+ return true;
+}
+</script>
+
+
+<a href="downvote.php" onClick="alert('You have given this item a thumbs down! You can change your vote, or leave it how it is.')"; onMouseOver="return changeImage()" onMouseOut= "return changeImageBack()" ><img
+name="jsbutton1" src="Graphics/thumbs-down-unclicked.jpeg" width="75" height="75" border="0"
+alt="javascript button"></a>
+
+<script type="text/javascript">
+function changeImage()
+{
+document.images["jsbutton1"].src= "Graphics/thumbs-down.jpeg";
+return true;
+}
+function changeImageBack()
+{
+ document.images["jsbutton1"].src = "Graphics/thumbs-down-unclicked.jpeg";
+ return true;
+}
+</script>
+
+
+</body>
+</html>

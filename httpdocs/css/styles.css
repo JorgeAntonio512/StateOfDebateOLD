@@ -1,0 +1,201 @@
+﻿/* Reset */
+
+html, body { margin: 0; padding: 0; border: 0;  background: transparent; font-size:10px; }
+
+div, span, article, aside, footer, header, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, 
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+
+img 	{ margin:0; padding:0; border:0; }
+
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0; padding: 0; border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+	
+table { border-collapse: collapse; border-spacing: 0; }
+	
+input, select, textarea, form, fieldset {
+	margin: 0; padding: 0; border: 0;
+	}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section { 
+	display:block; }
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, b, i, u, strike { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%; 
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color: #000;
+	}
+
+ol, ul { list-style: none; }
+
+
+/*****************************END RESET**********************************/
+
+body {
+    font-family:Verdana, Calibri, sans-serif;
+    font-size:12pt;
+    /*max-width:1150px;*/
+    background-color:#DBDBDB
+}
+
+#userList {
+	position:fixed;
+	clear:left;
+	float:right;
+	width:10%;
+	max-width:150px;
+	z-index:10;
+	
+	height:100%;
+	background-color:#ccc;
+	overflow:auto;
+}
+
+#userList p:hover {
+	background-color:#999999;
+}
+
+
+#wrapper {
+	margin-top:0px;
+    position:relative;
+    width:1000px;
+    margin:auto;
+    /*height:500px;*/ /*This should be auto*/
+    background-color:#DBDBDB;/*DBDBDB*/
+}
+
+#pageContent {
+    background-color:#fff;	
+    width:1004px;
+}
+
+#topnav {
+	margin-top:0px;
+	width:100%;
+	background-color:#000;
+	border:2px solid;
+	border-top-right-radius:50px;
+	border-top-left-radius:50px;
+}
+
+
+#topnav ul {
+	padding-left:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#topnav ul li { 
+    display: inline; 
+
+}
+
+#topnav ul li a {
+	padding-left:0px;
+	padding:5px;
+	margin-right:10px;
+	font-size:16px; 
+    font-weight:bold;
+	color:#fff; /* Sets the font color of the menu item text */
+	text-decoration: none; /* removes the underline from underneath links */
+    border-color:black;
+ 
+}
+
+#topnav ul li a:hover {
+	background-color:#fff;
+	color:black;
+}
+
+#welcomeBar {
+	padding-top:10px;
+}
+
+#welcomeBar p {
+    font-family:Verdana, Calibri, sans-serif;
+    font-size:10pt;
+
+}
+
+
+#headBanner {
+	width:1000px;
+}
+
+
+#highscores {
+	width:260px;
+	clear:left;
+	float:right;
+}
+
+#highscoresP {
+	text-align:center; 
+	padding-bottom:5px;
+}
+
+#scoreTable {
+	padding:2px;
+	width:200px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+	width:100%;
+	background:#000;
+	
+	border-bottom-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	margin-bottom:25px;
+
+}
+
+#footer p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%; 
+	text-indent: 0;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	padding:10px;
+}
+
+
+
+
+

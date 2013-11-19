@@ -1,0 +1,2 @@
+This linw will let me open a specific tab
+<p>Example of bookmark support: <a href="#" onclick="tabs.open('mark4',true);return false;">Bookmark link to mark4</a></p>
